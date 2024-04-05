@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  website:
+    build: ./
+    image: heroku:booker-site
+    container_name: booker-site
+    ports:
+      - "3001:3001"
+
+    
