@@ -1,3 +1,11 @@
+This is a copy of the open source project from Mark Winteringham. I have not modified it in any way
+other than to include a Dockerfile and a Docker-Compose.yaml file to handle deployment in Docker.
+It is provided as a deployable instance so that you can excute the tests in the accompanying test
+project.  For this project I am deploying this site to a docker container with an explicit
+networking setup within docker.  This will allow you to bring up this site as it's own running 
+instance in Docker in a way that will be needed to execute the test project.  I have also included 
+the readme from the original project.
+
 # restful-booker
 A simple Node booking form for testing RESTful web services.
 
