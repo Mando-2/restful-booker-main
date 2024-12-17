@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This is a copy of the open source project from Mark Winteringham. I have not modified it in any way
 other than to include a Dockerfile and a Docker-Compose.yaml file to handle deployment in Docker.
 It is provided as a deployable instance so that you can excute the tests in the accompanying test
