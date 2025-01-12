@@ -3,8 +3,6 @@ services:
   website:
     build: ./
     image: heroku:booker-site
-    container_name: booker-site
+    container_name: restful-booker-main
     ports:
       - "3001:3001"
-
-    
